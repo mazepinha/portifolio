@@ -1,17 +1,19 @@
 
- h1{color:rgb(233, 172, 192)}
+ h1{color:#00FA9A;
+    margin-left: 32px;
+}
 
- h2{color:blue}
+ h2{color:mediumspringgreen}
 
- * {border: solid}
+ /* {border: solid}*/
 
  p,h1,h2{ 
      text-align: center;
  }
 
-
+ .cabecalho *{border: solid;}
  .cabecalho{
-    background-color: rgb(64, 4, 024);
+    background-color:	#4B0082;
     display:flex;
     justify-content: space-between;
 };
@@ -21,18 +23,38 @@
     display:flex;
     flex-wrap: now-wrap;
     justify-content: space-evenly;
+}
 
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:24.7%;
+}
+
+.item:hover img{
+    opacity: 0.32;
+}
+
+.item:hover p{
+    opacity: 1;
 }
 
 .rodape{
     display:flex;
     justify-content: flex-end;
-
 }
 
 .site-description{
     display:flex;
     flex-direction: column;
     justify-content: first baseline;
-
 }
+
+.menu{
+    margin-right: 32px;
+}
+
