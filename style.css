@@ -1,0 +1,38 @@
+
+ h1{color:rgb(233, 172, 192)}
+
+ h2{color:blue}
+
+ * {border: solid}
+
+ p,h1,h2{ 
+     text-align: center;
+ }
+
+
+ .cabecalho{
+    background-color: rgb(64, 4, 024);
+    display:flex;
+    justify-content: space-between;
+};
+
+.grade{
+
+    display:flex;
+    flex-wrap: now-wrap;
+    justify-content: space-evenly;
+
+}
+
+.rodape{
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+
+}
